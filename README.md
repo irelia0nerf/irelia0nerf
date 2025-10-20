@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
+  <img src="./assets/Badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
   <img src="./assets/badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="35"/>
   <img src="./assets/badge%20Nvidia.svg" alt="NVIDIA Developer" height="35"/>
   <img src="./assets/badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="35"/>
