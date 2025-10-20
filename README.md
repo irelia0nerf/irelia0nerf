@@ -1,8 +1,20 @@
-<p align="left">
-  <img src="./badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="40"/>
-  <img src="./badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="40"/>
-  <img src="./badge%20Nvidia.svg" alt="NVIDIA Developer" height="40"/>
-  <img src="./badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="40"/>
+<p align="center">
+  <a href="https://www.foundlab.cloud">
+    <img src="https://img.shields.io/badge/FoundLab-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="FoundLab"/>
+  </a>
+  <a href="https://linkedin.com/in/alex-bolson-941b1925a">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://g.dev/alexbolson">
+    <img src="https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Profile"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
+  <img src="./assets/badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="35"/>
+  <img src="./assets/badge%20Nvidia.svg" alt="NVIDIA Developer" height="35"/>
+  <img src="./assets/badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="35"/>
 </p>
 
 # Alex Bolson — Architecting Auditable Trust Infrastructure
@@ -31,6 +43,32 @@ Proven performance: p95 < 520 ms, per-route SLOs, full OpenTelemetry tracing.
 - Jurisdictional isolation  
 - Compliance-by-construction  
 - Explainability-by-design
+
+---
+
+## Engineering Stack
+
+- **Cloud:** Google Cloud Platform (Cloud Run, Pub/Sub, BigQuery, Vertex AI), NVIDIA CUDA
+- **Languages:** Python, Typescript, Go
+- **Data:** BigQuery (WORM/immutable), Pub/Sub (event-driven), serverless DBs
+- **AI/ML:** Vertex AI, custom temporal GNNs, explainable models, continual learning loop
+- **Observability:** OpenTelemetry (full distributed tracing), SLO/SLA metrics per route
+- **Security:** Zero-persistence (ephemeral containers, forced TTL), cryptography (SHA-256, ZK-Proof, Merkle chains)
+- **Infra:** Infrastructure-as-Code, CI/CD, immutable builds, reproducible environments
+- **Compliance:** Automated audit trail, DecisionID, event lineage, policy-as-code
+- **Protocols:** W3C Verifiable Credentials, ZK, Rules-as-Code
+
+---
+
+## Engineering Principles
+
+- End-to-end reproducibility (from transaction to audit)
+- “Compliance-by-construction” and “explainability-by-design”
+- Everything observable: distributed tracing, logs, metrics, audit hooks
+- Strict SLOs (p95 < 520ms), per-route, measured and published
+- Event-driven, serverless-first, zero-custody architecture
+- Continuous security validation and proactive monitoring
+- Focus on deterministic, mathematically auditable systems
 
 ---
 
@@ -138,6 +176,12 @@ Recognized by Buenos Aires law journals for legal innovation in market integrity
 
 ![Mem-RAG V2 Diagram](https://diagrams.helpful.dev/d-r2/d-r2:yKUW2mLY)  
 [View fullscreen](https://diagrams.helpful.dev/d-r2/d-r2:yKUW2mLY) |
+
+---
+
+## Want to see more?
+
+[Visit foundlab.cloud for full architecture docs and platform details.](https://www.foundlab.cloud)
 
 ---
 
