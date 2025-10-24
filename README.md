@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="./assets/Badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
-  <img src="./assets/badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="35"/>
-  <img src="./assets/badge%20Nvidia.svg" alt="NVIDIA Developer" height="35"/>
-  <img src="./assets/badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="35"/>
+  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/Badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
+  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="35"/>
+  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20Nvidia.svg" alt="NVIDIA Developer" height="35"/>
+  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="35"/>
 </p>
 
 # Alex Bolson — Architecting Auditable Trust Infrastructure
@@ -88,7 +88,7 @@ Builder of production-grade compliance engines, explainable AI, and deterministi
 
 ## Vision & Mission
 
-Transforming the global financial stack by replacing “black box” legacy with radical transparency, security, and adaptive intelligence — architected for regulatory certainty, real-time explainability, and data minimization by design.
+Transforming the global financial stack by replacing “black box” legacy with radical transparency, security, and adaptive intelligence — architected for regulatory certainty, real-time expla[...]  
 
 > “Auditability, Security, and Trust are not features. They are systemic properties that emerge from a single, well-architected infrastructure.”
 
@@ -103,10 +103,10 @@ Traditional finance is paralyzed by a trilemma:
 - The overwhelming burden of compliance, audit, and privacy (LGPD/GDPR)
 
 **Problem:**  
-Legacy architectures are inherently opaque. Most “audit trails” are forensic, partial, and expensive to reconstruct. Regulators and executives live with operational uncertainty and fragmented trust.
+Legacy architectures are inherently opaque. Most “audit trails” are forensic, partial, and expensive to reconstruct. Regulators and executives live with operational uncertainty and fragmented[...]  
 
 **Founder’s Solution:**  
-FoundLab is building a new market category: **Auditable Trust Infrastructure (ATI)** — not another RegTech app, but a protocol-level foundation for real-time, mathematically provable trust, designed for regulated markets.
+FoundLab is building a new market category: **Auditable Trust Infrastructure (ATI)** — not another RegTech app, but a protocol-level foundation for real-time, mathematically provable trust, des[...]  
 
 ---
 
