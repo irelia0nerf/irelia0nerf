@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.foundlab.cloud">
-    <img src="https://img.shields.io/badge/FoundLab-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="FoundLab"/>
+  <a href="https://foundlab.com.br">
+    <img src="https://img.shields.io/badge/FoundLab-000000?style=for-the-badge&logo=googlecloud&logoColor=white" alt="FoundLab"/>
   </a>
   <a href="https://linkedin.com/in/alex-bolson-941b1925a">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -10,187 +10,181 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/Badge%20Google%20Cloud%20Dev.svg" alt="Google Cloud Dev" height="35"/>
-  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20Cloud%20Inovator.svg" alt="Google Cloud Innovator" height="35"/>
-  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20Nvidia.svg" alt="NVIDIA Developer" height="35"/>
-  <img src="https://raw.githubusercontent.com/irelia0nerf/irelia0nerf/main/assets/badge%20GEMINI%20BETA.svg" alt="Gemini Beta" height="35"/>
-</p>
+# Alex Bolson — Infrastructure for Auditable Trust
 
-# Alex Bolson — Architecting Auditable Trust Infrastructure
+**Founder & Chief Architect, FoundLab**
 
-**Founder & CEO, FoundLab**  
-[LinkedIn](https://linkedin.com/in/alex-bolson-941b1925a) • [g.dev/alexbolson](https://g.dev/alexbolson) • [FoundLab](https://www.foundlab.cloud)
+Building deterministic, cryptographically-verifiable infrastructure for regulated AI and financial systems.
+
+> **Trust by physics, not by policy.**
 
 ---
 
-## Founder Statement
+## What I Build
 
-I build non-custodial, event-driven reputation execution layers that convert on/off-chain risk signals into deterministic, auditable actions at transaction time.  
-Production-grade, end-to-end on Google Cloud (Cloud Run, Pub/Sub, BigQuery, Vertex AI).  
-Proven performance: p95 < 520 ms, per-route SLOs, full OpenTelemetry tracing.
+**Auditable Trust Infrastructure** — systems where sensitive payloads disappear, but cryptographic evidence survives.
 
-**Systems & Protocols Authored:**  
-- **Spezzatura Engine:** deterministic history (T² time signature)  
-- **Score Sigmoid P(x):** reactive risk scoring with α dial  
-- **Guardian AI:** temporal GNNs, drift guards  
-- **SDID:** W3C VC + selective disclosure / ZK  
-- **Veritas Protocol:** sealed rationale, DecisionID, Merkle chain  
-- **Burn Engine:** Rules-as-Code, signed logs, controlled reversibility
-
-**Core Focus:**  
-- Reproducibility  
-- Jurisdictional isolation  
-- Compliance-by-construction  
-- Explainability-by-design
+This means:
+- ✅ Evidence-first architecture (regulatory posture should be evidenced, not asserted)
+- ✅ Deterministic engines that can be audited by math, not auditors
+- ✅ Zero-persistence processing (data never stored = LGPD by design)
+- ✅ Event-driven, serverless-first, horizontally auditable
+- ✅ Merkle chains, hash-based evidence, DecisionID lineage
+- ✅ Real-time observability (OpenTelemetry, not black boxes)
 
 ---
 
-## Engineering Stack
+## Canonical Work
 
-- **Cloud:** Google Cloud Platform (Cloud Run, Pub/Sub, BigQuery, Vertex AI), NVIDIA CUDA
-- **Languages:** Python, Typescript, Go
-- **Data:** BigQuery (WORM/immutable), Pub/Sub (event-driven), serverless DBs
-- **AI/ML:** Vertex AI, custom temporal GNNs, explainable models, continual learning loop
-- **Observability:** OpenTelemetry (full distributed tracing), SLO/SLA metrics per route
-- **Security:** Zero-persistence (ephemeral containers, forced TTL), cryptography (SHA-256, ZK-Proof, Merkle chains)
-- **Infra:** Infrastructure-as-Code, CI/CD, immutable builds, reproducible environments
-- **Compliance:** Automated audit trail, DecisionID, event lineage, policy-as-code
-- **Protocols:** W3C Verifiable Credentials, ZK, Rules-as-Code
+### [secrecy-architecture](https://github.com/irelia0nerf/secrecy-architecture)
+**Reference architecture for verifiable secrecy systems** (Shannon 1949).
+
+Public design notes separating:
+- **Secret handling** — ephemeral, zero-persistence processing boundaries
+- **Policy enforcement** — deterministic decision gates, fail-closed under ambiguity
+- **Cryptographic evidence** — Merkle chains, hash-based audit receipts, ECDSA signatures
+- **Non-sensitive auditability** — OpenTelemetry tracing and analytical audit views
+
+Includes Architectural Decision Records (ADRs), threat model documentation, and Python verifier examples for independent auditor validation.
+
+[→ Read secrecy-architecture](https://github.com/irelia0nerf/secrecy-architecture)
+
+---
+
+## Active Infrastructure Projects
+
+### [Spezzatura Lite](https://github.com/irelia0nerf/SpezzaturaLiteV1)
+**Deterministic consistency validation for investment data** (Go).
+
+Converts subjective declarations (cap tables, traction claims, corporate history) into reproducible consistency signals. Produces signals, not opinions. Proof-of-check artifacts.
+
+- Deterministic TrustScore
+- Inconsistency detection
+- Audit-grade output with verifiable proofs
+
+### [Veritas Protocol](https://github.com/irelia0nerf/foundlab-research)
+**Cryptographic evidence substrate for financial decisions.**
+
+Hash chaining, DecisionID assignment, Merkle proofs, policy snapshots. Whitepaper with reproducible schema and audit validation guide.
+
+- Canonical whitepaper (Markdown → PDF)
+- Cryptographic proof levels and regulatory mapping
+- Reproducible audit methodology
+
+### [FoundLab Terraform](https://github.com/irelia0nerf/foundlab-terraform)
+**Cloud-native infrastructure scaffold for modular AI governance.**
+
+GCP infrastructure-as-code: Cloud Run services, BigQuery analytical audit views, Vertex AI orchestration, CloudBuild CI/CD.
+
+- Modular service architecture
+- Terraform patterns for governance
+- React frontend scaffold, API-first design
+
+### [O Códice FoundLab](https://github.com/irelia0nerf/foundlabcodice)
+**Institutional blueprint with claims, KPIs, and reproducible evidence.**
+
+Evidence-first documentation, technical claims mapped to observable KPIs, public benchmark structure, audit manifests.
+
+- JSON Schema for verifiable claims
+- Proof-of-measurement artifacts
+- GitHub Pages documentation
+
+---
+
+## Technical Stack
+
+### Core Languages & Performance
+- **Go** — Deterministic engines (Spezzatura, high-performance validation)
+- **Python** — Data validation, ML ops, compliance pipelines
+- **TypeScript** — Frontend, full-stack applications with React
+
+### Cloud Infrastructure
+- **Google Cloud** — Primary platform (Cloud Run, Vertex AI, Pub/Sub, KMS)
+- **Storage** — Cloud Storage Bucket Lock for immutable evidence packages
+- **BigQuery** — Analytical audit view (not root immutable ledger)
+- **Cloud Spanner** — Chain head and strong consistency
+- **Terraform** — Infrastructure-as-code, reproducible environments
+- **Docker** — Containerized, immutable builds
+- **CloudBuild** — CI/CD automation
+
+### Data & Observability
+- **Pub/Sub** — Event-driven processing
+- **OpenTelemetry** — Full distributed tracing, SLO/SLA metrics
+- **PostgreSQL / MongoDB** — Transactional and operational databases
+
+### Security & Cryptography
+- **SHA-256** — Hash chains for cryptographic evidence
+- **ECDSA P-256** — Signatures for signed logs and DecisionID
+- **Zero-persistence design** — Ephemeral containers, forced TTL, no data residue
+- **Cloud KMS** — Key management and cryptographic operations
+
+### AI & Governance
+- **Vertex AI** — ML pipelines, drift guards, continuous learning
+- **Gemini** — LLM integration with runtime governance
+- **Explainability-by-design** — Models that produce interpretable decisions
 
 ---
 
 ## Engineering Principles
 
-- End-to-end reproducibility (from transaction to audit)
-- “Compliance-by-construction” and “explainability-by-design”
-- Everything observable: distributed tracing, logs, metrics, audit hooks
-- Strict SLOs (p95 < 520ms), per-route, measured and published
-- Event-driven, serverless-first, zero-custody architecture
-- Continuous security validation and proactive monitoring
-- Focus on deterministic, mathematically auditable systems
+- **Evidence over narrative** — Show proof, not promises
+- **Determinism as auditability** — Every decision must be reproducible
+- **Sensitive payloads disappear; cryptographic evidence survives** — Zero-persistence is architecturally enforced
+- **Fail-closed under ambiguity** — Uncertain paths don't execute; they escalate
+- **Compliance evidence is produced by architecture** — Regulatory posture should be evidenced, not asserted
+- **Audit is continuous, not forensic** — Every transaction produces an artifact
+- **Secrets don't persist by default** — Data minimization through ephemeral processing
 
 ---
 
-## Executive Profile
+## Background
 
-Ex-lawyer (Brazil Bar 53.705/SC) and FinTech architect specialized in regulated markets, auditability, and quantum finance.  
-Builder of production-grade compliance engines, explainable AI, and deterministic, cryptographically-auditable execution layers for financial services.
+**Ex-lawyer** (Brazil Bar 53.705/SC) — specialized in market integrity, compliance automation, regulated fintech.
 
-- **Author** of “Insider Trading: Crime de informação privilegiada”, cited as legal precedent in Buenos Aires and referenced in case law.
-- **Technical Lead & Principal Engineer:**  
-  - Veritas Protocol (provable audit trail, Merkle chain, DecisionID)
-  - Score Engine / Spezzatura (reputational Hamiltonian, risk quantization)
-  - Guardian AI (temporal GNN, drift guards, explainable compliance)
-  - Burn Engine (Rules-as-Code, irreversible execution, signed logs)
+**Published:**
+- *"Insider Trading: Crime de informação privilegiada"* — cited as legal precedent in Buenos Aires jurisprudence
+- Featured: *"O Arquiteto Stealth: Como um Ex-Advogado Está Construindo a Próxima Infraestrutura 'Auditável' do Mercado Financeiro"* (2025)
 
----
-
-## Vision & Mission
-
-Transforming the global financial stack by replacing “black box” legacy with radical transparency, security, and adaptive intelligence — architected for regulatory certainty, real-time expla[...]  
-
-> “Auditability, Security, and Trust are not features. They are systemic properties that emerge from a single, well-architected infrastructure.”
+**Affiliations:**
+- Member, CQF Institute Societies New York
+- Member, Google Cloud Innovators
+- Member, NVIDIA Developer Program
+- Active in quantum finance, market infrastructure, explainable AI
 
 ---
 
-## The Compliance Trilemma: Industry Pain, Founder Solution
+## Open to Collaboration
 
-**Context:**  
-Traditional finance is paralyzed by a trilemma:  
-- The imperative to innovate and move fast  
-- Relentless security and data risk  
-- The overwhelming burden of compliance, audit, and privacy (LGPD/GDPR)
-
-**Problem:**  
-Legacy architectures are inherently opaque. Most “audit trails” are forensic, partial, and expensive to reconstruct. Regulators and executives live with operational uncertainty and fragmented[...]  
-
-**Founder’s Solution:**  
-FoundLab is building a new market category: **Auditable Trust Infrastructure (ATI)** — not another RegTech app, but a protocol-level foundation for real-time, mathematically provable trust, des[...]  
+- **Auditable AI infrastructure** — organizations building trust infrastructure for regulated workloads
+- **Cryptographic evidence systems** — teams exploring hash-based audit and proof mechanisms
+- **Zero-persistence architecture** — regulated fintech solving LGPD/GDPR by design, not encryption
+- **Deterministic scoring engines** — investment, credit, or compliance-grade validation systems
 
 ---
 
-## Architecture: Three Reinforcing Pillars
+## Stack at a Glance
 
-### 1. Veritas Protocol – Absolute Auditability
-
-- Every action and decision is cryptographically chained (hash chaining), assigned a DecisionID, and logged immutably (BigQuery WORM).
-- Every step is mathematically verifiable, reducing forensic audit from weeks to a single query.
-- Transforms compliance and audit from reactive and manual to proactive and computational.
-
-### 2. Zero-Persistence Security
-
-- No sensitive client data is ever stored: all processing in ephemeral, volatile memory (Google Cloud Run, enforced TTL).
-- Radical data minimization: risk is architecturally eliminated, not just encrypted.
-- Demonstrates LGPD/GDPR compliance by design; shifts the question from “How is data protected?” to “Can you prove data was never stored?”
-
-### 3. Antifragile Intelligence – The AI Flywheel
-
-- All errors, anomalies, and interventions feed back into continuous, real-time model improvement (“Critic-Loop”).
-- Self-healing, adaptive, and explainable models get better with scale and variety of edge cases.
-- Proprietary data moat: every new client compounds the network effect, making the system smarter for all.
+```
+Infrastructure     → GCP (Cloud Run, Vertex AI, Pub/Sub, KMS), Terraform, Docker
+Evidence Storage   → Cloud Storage Bucket Lock (immutable), BigQuery (analytical view)
+Core Engines       → Go (deterministic), Python (ML ops), TypeScript (full-stack)
+Security           → SHA-256, ECDSA P-256, zero-persistence, Merkle chains
+Observability      → OpenTelemetry, audit-first logging, policy-as-code
+AI/Governance      → Vertex AI, Gemini, explainability-by-design
+```
 
 ---
 
-## Real-World Impact
+## Connect
 
-- **Compliance cycle** time reduced: 21 hours → 16 minutes (98.7% improvement)
-- **Error rate** reduced: 42% → 2.5% (94% improvement)
-- **Auditability:** 100% of transactions, steps, and decisions are now provable and traceable in real time
-
-Production-validated with clients in the BTG Pactual ecosystem and Elitte Capital.  
-Recognized by Buenos Aires law journals for legal innovation in market integrity.
-
----
-
-## Publications & Recognition
-
-- **Author:** _Insider Trading: Crime de informação privilegiada_  
-  Referenced as jurisprudence and featured in Buenos Aires legal review
-- Featured in “O Arquiteto Stealth: Como um Ex-Advogado Está Construindo a Próxima Infraestrutura 'Auditável' do Mercado Financeiro” (2025)
+- **Website:** [foundlab.com.br](https://foundlab.com.br)
+- **LinkedIn:** [alex-bolson-941b1925a](https://linkedin.com/in/alex-bolson-941b1925a)
+- **Google Developer:** [g.dev/alexbolson](https://g.dev/alexbolson)
+- **Research:** [foundlab-research](https://github.com/irelia0nerf/foundlab-research)
+- **Architecture:** [secrecy-architecture](https://github.com/irelia0nerf/secrecy-architecture)
 
 ---
 
-## Affiliations
-
-- Member, **CQF Institute Societies New York**
-- Member, **Google Cloud Innovators**
-- Member, **NVIDIA Developer Program** ([NVIDIA Developer](https://developer.nvidia.com/))
-- Active in quantum finance, market infrastructure, and explainable AI
-
----
-
-## Technical Overview
-
-- Architected, built and deployed:  
-  - **Spezzatura Engine:** deterministic event history, risk quantization  
-  - **Veritas Protocol:** audit-proof digital notary (hash chaining, DecisionID, Merkle chain)  
-  - **Guardian AI:** antifragile, explainable compliance models (temporal GNNs, drift guards)  
-  - **Burn Engine:** irreversible, cryptographically signed actions and logs
-
-- Stack: Google Cloud Platform, NVIDIA, serverless, Python, Typescript, BigQuery, Vertex AI, OpenTelemetry, cryptography
-
----
-
-## Architecture Diagram
-
-![Mem-RAG V2 Diagram](https://diagrams.helpful.dev/d-r2/d-r2:yKUW2mLY)  
-[View fullscreen](https://diagrams.helpful.dev/d-r2/d-r2:yKUW2mLY) |
-
----
-
-## Want to see more?
-
-[Visit foundlab.cloud for full architecture docs and platform details.](https://www.foundlab.cloud)
-
----
-
-## Contact
-
-- [LinkedIn](https://linkedin.com/in/alex-bolson-941b1925a)
-- [g.dev/alexbolson](https://g.dev/alexbolson)
-- [foundlab.cloud](https://www.foundlab.cloud)
-
----
-
-*Building trust, auditability and resilience at the foundation of financial markets.*
+<p align="center">
+  <strong>FoundLab — Sensitive Payloads Disappear. Cryptographic Evidence Survives.</strong>
+</p>
